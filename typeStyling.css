@@ -1,0 +1,29 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS:wght@100..400&display=swap');
+
+.playwrite-de-sas {
+  font-family: "Playwrite DE SAS", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+body {
+    background-color: beige;
+}
+
+
+p {
+    font-family: "Playwrite DE SAS", cursive;
+    font-size: 1.2em; /* Em space = M turned 90 on its side 
+    measured in px, em, relative, etc. */
+    line-height: 1.0; 
+    color: gray;
+    font-weight: 400;
+    font-style: normal; /* ital, oblique */
+    font-variant: normal; /* small-caps */
+}

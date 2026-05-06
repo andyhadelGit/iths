@@ -1,0 +1,47 @@
+/* Use slash and asterisk to make comments */
+
+
+body {
+    text-align: center;
+    background-image: url("images/bgTile.png");
+    background-repeat: no-repeat; /* no tile effect */
+    background-attachment: fixed; /* text scrolls over bg */
+    background-position: center top;
+    background-color: #069; /* hexidecimal blue */
+    color: white; /* colors text */
+    font-family: Verdana, Geneva, sans-serif; /* font stack defaults until the right
+                                               * font is found */    
+}
+
+a:link {
+    color: rgba(255,255,255,1); /* rgb white and 100% opacity aka alpha */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f90;
+    background-color: black;
+    text-decoration: none;
+}
+
+main {
+    margin: 0 auto;
+    width: 80%; /* using a measure = absolute size */
+    /* height: 200px; */
+    background-image: url("images/jet_on_left.png");
+    padding: 20px; /* padding-top, bottom, right or left */
+    border: solid 3px rgba(128, 129, 128, 1);
+    border-radius: 12px 24px; /* rounded corners */
+    text-align: left;
+}
+
+nav {
+    margin: 0 auto;
+    width: 80%; /* relative to container */
+    height: 30px; /* absolute size */
+    padding: 10px 4px 4px 4px; /* top right bottom left */
+    margin-bottom: 20px;
+    background-color: black;
+    border: dashed 1px rgba(255, 255, 255, 1);
+    border-radius: 0 12px 0 0; /* rounded corners */
+}
