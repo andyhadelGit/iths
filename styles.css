@@ -1,0 +1,118 @@
+
+/* <-- Start & End --> */
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap');
+
+.iceland-regular {
+  font-family: "Iceland", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tektur-regular {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style:normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+.geo-regular {
+  font-family: "Geo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    text-align: center;
+    background-color: #9c2946;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position:inherit;
+    color:#ffffff;
+    font-family: Verdana;
+    
+    
+}
+a:link{
+color: rgb(255, 255, 255);
+text-decoration: none
+}
+
+a:hover{
+    color: #9c2946;
+text-decoration: none
+}
+
+a:visited{
+color: #ff0040;
+
+}
+
+p{
+font-size: small;
+text-indent: 20px
+}
+
+h1{
+font-size: 4.75em;
+text-align: left;
+font-family: "Iceland", sans-serif;
+}
+
+h2{
+font-size: 1.5em;
+padding-left:85px;
+text-align: left;
+font-family: "Tektur", sans-serif;
+}
+
+footer{
+text-align: start;
+padding-left:35px;
+}
+
+main{
+    margin: 0 auto;
+    width:82%; 
+    padding:15px 25px 15px 65px;
+    border: solid 1.8px rgb(228, 127, 127);
+    text-align: left;
+    background-color: rgb(55, 55, 55);
+    background-image: url("/images/STRIPE.png");
+    font-family: "Geo", sans-serif;
+}
+
+nav{
+    color: rgb(228, 127, 127);
+    margin: 0 auto;
+    width: 70%; 
+    height: 30px;
+    padding:  4px 5px 4px;
+    margin-bottom: 20px;
+    background-color: rgb(55, 55, 55);
+    border:double 5px rgb(228, 127, 127);
+    background-image: url("/images/STRIPE.png") ;
+    font-family: "Geo", sans-serif;
+    font-size: 1.45em;
+    
+}
+
+img{
+    height: 350px ;
+    margin: 5px 5px 5px 5px; 
+}
+
+.special{
+    height: 317px
+    
+}
+
+.logo{
+    height: 150px
+    
+}
